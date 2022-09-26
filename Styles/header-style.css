@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*  #ff4c29 / #082032 / #2C394B  */
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    HEADER STYLE:
+*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    background-color: #082032;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+/*#082032*/
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: black;
+}
+
+button {
+    padding: 6px 10px;
+    background-color: rgb(128, 128, 128, 1);
+    border: none;
+    border-radius: 60px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#ff4c29 !important;
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+li, a, button {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+}
+
+.imgBox {
+    height: 140px;
+    border-radius: 100%;
+    align-items: center;
+    cursor: none;
+    transition: all 0.3s ease 0s;
+}
+
+.imgBox:hover {
+    -moz-box-shadow: 0 0 30px black;
+    -webkit-box-shadow: 0 0 30px black;
+    box-shadow: 0 0 30px black;
+}
+
+/*
+    BODY STYLE:
+*/
+
+body {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+/*#edf0f1*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*.cricket, .football, .volleyball, .tennis, .hockey, .running {
+    background-color: transparent;                     #082032
+    width: 100%;
+    position: relative;
+}*/
+
+.sport {
+    background-color: transparent;                     /*#082032*/
+    position: relative;
+    transition: all 0.2s ease 0s;
+}
+
+/*.cricket:hover, .football:hover, .volleyball:hover, .tennis:hover, .hockey:hover, .running:hover {
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);
+}*/
+
+.sport:hover {
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);
+}
+
+/*#s1, #s2, #s3, #s4, #s5, #s6 {
+    width: 440px;
+    height: 200px;
+    align-content: center;
+    border-radius: 11px;
+    -moz-box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    text-align:center;
+    padding: 0px;
+    transition: all 0.2s ease 0s;
+}*/
+
+.sportImg {
+    position:relative;
+    width: 440px;
+    height: 250px;
+    align-content: center;
+    border-radius: 11px;
+    -moz-box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    text-align:center;
+    padding: 0px;
+}
+
+/*.text1, .text2, .text3, .text4, .text5, .text6 {
+    position: absolute;
+    top:0; bottom:0; left:0; right:0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    visibility:hidden;
+}*/
+
+.text {
+    position: absolute;
+    top:0; bottom:0; left:0; right:0px;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    color: #ff4c29;
+    font-size: 50px;
+    font-weight: 900;
+    visibility:hidden;
+    transition: all 0.2s ease 0s;
+    -moz-text-shadow: 0px 0 50px white;
+    -webkit-text-shadow: 0px 0 50px white;
+    text-shadow: 0px 0 50px white;
+    border: 2px solid black;
+}
+
+.sport:hover .text{
+    visibility: visible;
+    opacity: 1;
+    transition: all 0s ease-in-out;
+}
+
+/*.text1:hover, .text2:hover, .text3:hover, .text4:hover, .text5:hover, .text6:hover {
+    color: black;
+}*/
+
+/*
+    PRODUCT PAGE:
+*/
+
+.item {
+    display: flex;
+    /*border: 2px solid black;*/
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product {
+    float: left;
+    margin: 10px 30px 10px 30px;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #ff4c29;
+    border-radius: 10%;
+    -moz-box-shadow: 0 0 40px black;
+    -webkit-box-shadow: 0 0 40px black;
+    box-shadow: 0 0 40px black;
+}
+
+.productName {
+    text-decoration: solid underline #ff4c29 2px;
+    text-underline-offset: 8px;
+    padding-bottom: 10px
+}
+
+.allItems {
+    color: whitesmoke;
+}
+
+/*table {
+    width: 250px;
+}*/

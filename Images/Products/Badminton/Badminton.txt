@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Cricket</title>
+</head>
+<style>
+header{
+	background-color:#D79771;
+	height:150px;
+	}
+body{
+	background-color: cornsilk;
+	font-style:Arial;
+	}
+</style>
+<body>
+<header><center><img class="logo" src="D:\Web Development\assignments\final\Cricket\logo.jpeg" height="150" width="150"></center></header>
+<u><h1><ul type="dot"><li>BADMINTON</li></ul></h1></u>
+<img src="D:\Web Development\assignments\final\Badminton\" height="200" width="200" border="2" align="left"/>
+<h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspYonex Badminton Racket</h2>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Type:</b> Single Joint<br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Brand:</b>Yonex<br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Player Type:</b>Beginners<br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Grip Material: </b>Wooden and Foam<br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Shaft Material:</b>Polyester<br><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color:Red"><span>&#8377;</span>400/- only</span>&nbsp&nbsp<span style="color:gray"><span>&#8377;</span><del>500</del></span>&nbsp&nbsp&nbsp<b> Save :<span>&#8377;</span>100 <span style="color:green">(20%Off)</b></span><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button style="background-color:orange;border-color:none; color:black">Buy Now</button><br><br>
+<hr>
+</body>
+</html>

@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat",sans-serif;
+}
+
+/*
+    HEADER STYLE:
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    background-color: #424949;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: black;
+}
+
+button {
+    padding: 6px 10px;
+    background-color: rgb(128, 128, 128, 1);
+    border: none;
+    border-radius: 60px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(128, 128, 128, 0.6);
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+li, a, button {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+}
+
+.imgbox {
+    align-items: center;
+    cursor:pointer;
+}
+
+.imgbox:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/*
+    BODY STYLE:
+*/
+
+body {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 20px;
+    padding: 20px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.cricket, .football, .volleyball, .tennis, .hockey, .running {
+    background-color: #424949;
+    border-radius: 11px;
+    -moz-box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    text-align:center;
+    padding: 10px;
+    transition: all 0s ease 0s;
+}
+
+.cricket:hover, .football:hover, .volleyball:hover, .tennis:hover, .hockey:hover, .running:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#s1, #s2, #s3, #s4, #s5, #s6 {
+    width: 300px;
+    align-content: center;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6 {
+    text-align:center;
+    padding: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+/*.text1:hover, .text2:hover, .text3:hover, .text4:hover, .text5:hover, .text6:hover {
+    color: black;
+}*/
